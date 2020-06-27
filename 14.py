@@ -7,7 +7,7 @@ add_tags('b', 'Python Tutorial') -> '<b>Python Tutorial </b>'
 
 
 def add_tags(tag, content):
-    print("<"+tag+">", content, "</"+tag+">")
+    print(f"<{tag}>{content}</{tag}>")
 
 
 inp_tag = input("Enter tag:")

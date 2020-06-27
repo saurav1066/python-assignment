@@ -8,7 +8,5 @@ out = 0
 for i in range(inp):
     val = int(input("Enter list elements:"))
     lis += [val]
-for i in lis:
-    if out < i:
-        out = i
-print("The largest number is:", out)
+lis.sort()
+print("The largest number is:", lis[-1])
